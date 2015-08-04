@@ -1,0 +1,16 @@
+{
+  "name": "maildocker/maildocker",
+  "description": "This library allows you to quickly and easily send emails through Maildocker using PHP.",
+  "version": "1.0",
+  "keywords": ["Maildocker", "email"],
+  "require": {
+    "php": ">=5.3"
+  },
+  "replace": {
+    "maildocker/maildocker-php": "*"
+  },
+  "type": "library",
+  "autoload": {
+    "psr-0": {"Maildocker": "maildocker/"}
+  }
+}
