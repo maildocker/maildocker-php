@@ -4,12 +4,18 @@
   "version": "1.0",
   "keywords": ["Maildocker", "email"],
   "require": {
-    "php": ">=5.3"
+    "php": ">=5.3",
+		"maildocker/maildocker": "dev-master"
   },
   "replace": {
     "maildocker/maildocker-php": "*"
   },
   "type": "library",
+	"minimum-stability": "stable",
+	"repositories": [{
+		"type": "vcs",
+		"url": "https://github.com/maildocker/maildocker-php"
+	}]
   "autoload": {
     "psr-0": {"Maildocker": "maildocker/"}
   }
